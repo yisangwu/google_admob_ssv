@@ -1,16 +1,11 @@
 {
-    "name": "google admob ssv php",
+    "name": "yisangwu/admobssv",
+    "version": "0.0.1",
     "description": "google admob server-side verification, php side",
     "keywords": ["google", "admob", "ssv", "admob ssv", "oepnssl", "rsa", "sha256"],
     "type": "library",
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/yiisoft/yii2-bootstrap/issues",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2-bootstrap"
-    },
+    "homepage": "https://github.com/yisangwu/google_adomb_ssv.git",
     "authors": [
         {
             "name": "yisangwu",
@@ -21,5 +16,5 @@
     ],
     "require": {
         "php" : ">=7.0"
-    },
+    }
 }
