@@ -1,5 +1,5 @@
 {
-    "name": "yisangwu/admobssv",
+    "name": "yisangwu/google_adomb_ssv",
     "version": "0.0.1",
     "description": "google admob server-side verification, php side",
     "keywords": ["google", "admob", "ssv", "admob ssv", "oepnssl", "rsa", "sha256"],
