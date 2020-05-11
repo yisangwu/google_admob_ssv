@@ -1,20 +1,16 @@
 {
-    "name": "yisangwu/google_admob_ssv",
-    "version": "0.0.1",
-    "description": "google admob server-side verification, php side",
-    "keywords": ["google", "admob", "ssv", "admob ssv", "oepnssl", "rsa", "sha256"],
+    "name": "depakin/admobssv",
+    "description": "ssv, google admob server side verify, php code openssl verify",
     "type": "library",
+    "require": {
+        "php": ">5.6"
+    },
     "license": "MIT",
-    "homepage": "https://github.com/yisangwu/google_adomb_ssv.git",
     "authors": [
         {
-            "name": "yisangwu",
-            "email": "yisangwu@gmail.com",
-            "homepage": "https://yisangwu.github.io",
-            "role": "Developer"
+            "name": "depakin",
+            "email": "depakin@126.com"
         }
     ],
-    "require": {
-        "php" : ">=7.0"
-    }
+    "minimum-stability": "stable"
 }
