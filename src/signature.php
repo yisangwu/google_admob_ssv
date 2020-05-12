@@ -2,7 +2,7 @@
 
  namespace depakin\admobssv;
 
- use PublicKey;
+ use depakin\admobssv\PublicKey;
 
 /**
  * 签名验证
