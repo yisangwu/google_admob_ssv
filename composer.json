@@ -4,7 +4,8 @@
     "keywords": ["ssv", "google", "admob", "openssl"],
     "type": "library",
     "require": {
-        "php": ">=5.6"
+        "php": ">=5.6",
+        "ext-json": "*",
     },
     "license": "MIT",
     "authors": [
@@ -13,5 +14,10 @@
             "email": "depakin@126.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "depakin\\admobssv\\": "src"
+        }
+    }
 }

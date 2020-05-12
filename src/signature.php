@@ -1,8 +1,8 @@
 <?php
 
- namespace depakin;
+ namespace depakin\admobssv;
 
- use depakin\PublicKey;
+ use PublicKey;
 
 /**
  * 签名验证

@@ -1,6 +1,6 @@
 <?php 
 
- namespace depakin;
+ namespace depakin\admobssv;
 
 /**
  * 公钥处理
