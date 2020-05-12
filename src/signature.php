@@ -78,7 +78,7 @@ class Signature
         // 最关键的一点，是这个字符串的替换。不替换怎么做都是验证失败
         $this->signature = str_replace(['-', '_'], ['+', '/'], $this->signature);
         // 签名源数据
-        $this->message = substr($this->query_string, 0, strpos($this->query_string, '&signature'));
+        $this->message = urldecode(substr($this->query_string, 0, strpos($this->query_string, '&signature')));
 
         if (empty($this->key_id) || empty($this->signature) || empty($this->message)) {
             throw new Exception('query_string Missing required parameters!');

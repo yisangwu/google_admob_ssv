@@ -4,19 +4,18 @@
      * example
      */
 
-    require_once('publickey.php');
-    require_once('signature.php');
 
-    use depakin\PublicKey;
-    use depakin\Signature;
+  require 'vendor/autoload.php';
 
+  use depakin\admobssv\PublicKey;
+  use depakin\admobssv\Signature;
 
-    $query_string = '';
+  // google query string
+  $query_string = '';
 
+  $Signature = new Signature($query_string);
 
-    $Signature = new Signature($query_string);
-
-    var_dump( $Signature->verify() );
+  var_dump( $Signature->verify() );
 
     /* -- output
     array(2) {
